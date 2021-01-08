@@ -11,10 +11,11 @@
 
     <!-- Redirect the user -->
     <script>
-      const currentUrl = String(window.location.href);
-      let url = currentUrl + '/Public';
-
-      window.location = url;
+      function Redirect() {
+        window.location = window.location.href + '/Public';
+      }
+      
+      window.setTimeout(Redirect, 750);
     </script>
   </body>
 </html>

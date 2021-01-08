@@ -12,7 +12,10 @@
     <!-- Redirect the user -->
     <script>
       function Redirect() {
-        window.location = window.location.href + '/Public';
+        let url = window.location.href + '/Public';
+        console.log(`Redirecting to ${url}`);
+        
+        window.location = url;
       }
       
       window.setTimeout(Redirect, 750);

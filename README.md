@@ -3,4 +3,4 @@
 \
 \
 \
-Pagina web, en Español, para acompañar al GitBook creado
+Pagina web, en Español, para acompañar al [GitBook](https://workos.gitbook.io/mp06/) creado

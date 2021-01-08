@@ -26,7 +26,8 @@ $(document).ready(function(){
   	$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
   	
   });
-  
+
+	
   //------------------------------------//
   //Wow Animation//
   //------------------------------------// 
@@ -39,7 +40,10 @@ $(document).ready(function(){
         }
       );
       wow.init();
-
-
-	
 });
+
+
+  //------------------------------------//
+  //Extra//
+  //------------------------------------//
+	console.log('La pagina esta estatica\nNada deberia estar funcionando pero si lo hace pues... (O_O)');

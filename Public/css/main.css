@@ -659,3 +659,18 @@ footer {
 @media (min-width: 1200px) and (max-width: 3000px) {
 
 }   
+
+
+
+
+/* ==========================================================================
+   User Modified
+   ========================================================================== */
+/* Margenes del cuestionario */
+p {
+  margin-right: 25px;
+}
+
+.form-check-label {
+  margin-right: 25px;
+}

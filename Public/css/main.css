@@ -669,6 +669,11 @@ footer {
 /* Margenes del cuestionario */
 p {
   margin-right: 25px;
+  color: #121212;
+}
+
+small {
+  color: #929496;
 }
 
 .form-check-label {

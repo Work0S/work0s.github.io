@@ -670,6 +670,7 @@ footer {
 p {
   margin-right: 25px;
   color: #121212;
+  font-weight: 600;
 }
 
 small {
@@ -678,4 +679,8 @@ small {
 
 .form-check-label {
   margin-right: 25px;
+}
+
+label {
+  font-weight: 400 !important;
 }
